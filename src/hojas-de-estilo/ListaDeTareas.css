@@ -1,0 +1,49 @@
+.tareas-lista-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.tareas-filtro {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tareas-filtro button {
+  margin: 5px 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #004691;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+}
+
+.tareas-filtro button:hover {
+  background-color: #0872e4;
+}
+
+@media (max-width: 360px) {
+  .tareas-filtro button {
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #004691;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+  }
+  .tareas-lista-contenedor{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

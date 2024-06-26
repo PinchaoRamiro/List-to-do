@@ -1,0 +1,84 @@
+.tarea-contenedor {
+  width: 500px;
+  min-height: 65px;
+  background-color: #7c28ca;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;    
+}
+
+/* Colores */
+
+.tarea-contenedor:nth-child(3n + 1) {
+  background-color: #3131b3;
+}
+
+.tarea-contenedor:nth-child(3n + 2) {
+  background-color: #16167e;
+}
+
+.tarea-contenedor:nth-child(3n + 3) {
+  background-color: #632d74;
+}
+
+/* Texto */
+
+.tarea-texto {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+/* Icono */
+
+.tarea-icono {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.tarea-icono:hover {
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+/* Tarea Completada */
+
+.tarea-contenedor.completada {
+  background-color: #9552cf;
+  text-decoration: line-through;
+}
+
+
+@media (max-width: 360px) {
+  .tarea-contenedor  {
+    width: 200px;
+    font-size: 9px;
+    border-radius: 20px 5px 5px 20px;
+    border: 0;
+  }
+}
+
+@media (max-width: 915px) {
+   .tarea-contenedor {
+    width: 450px;
+    font-size: 12px;
+    border-radius: 20px 5px 5px 20px;
+    border: 0;
+  }
+  
+}
+
+
