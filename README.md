@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto clon del curso FreeCodeCamp en el cual se le agregan unas nuevas fuciones
+para iniciarlo es necesario tener npm strart y tener en cuenta que fue echo en la libreria React la cual facilita el trabajo y mejora la velocidad 
+y adaptabilidad del codigo:
+
+Enlace de demostracion: 
 
 ## Available Scripts
 
