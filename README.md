@@ -5,6 +5,12 @@ Este es un proyecto clon del curso FreeCodeCamp en el cual se le agregan unas nu
 para iniciarlo es necesario tener npm strart y tener en cuenta que fue echo en la libreria React la cual facilita el trabajo y mejora la velocidad 
 y adaptabilidad del codigo:
 
+pueden clonar el repositorio en el botton verde de arriva, y con Node.js se deben ejcutar los comandos de 
+npx create-react-app <name-app> 
+luego pasar el archivo de node_modules a la carpeta raiz del proyecto y ejecutar 
+npm start
+para ver en la pantalla del navegador la app
+
 Enlace de demostracion: https://youtu.be/E4kXlJ54QIM
 
 ## Available Scripts
